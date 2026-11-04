@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Taqtics - Restaurant Management Software</title>
+    <meta name="description" content="Manage restaurant operations, tasks, audits and food safety with Taqtics.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="site-header">
+    <nav class="navbar container">
+
+        <a href="index.html" class="logo">taqtics</a>
+
+        <button class="menu-btn" id="menuBtn"
+                aria-label="Open menu" aria-expanded="false">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="products.html">Products⌄</a></li>
+            <li><a href="industries.html">Industries⌄</a></li>
+            <li><a href="company.html">Company⌄</a></li>
+            <li><a href="resources.html">Resources⌄</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="trial.html" class="trial-link">Start Free Trial</a></li>
+            <li><a href="demo.html" class="btn btn-primary">Book a Demo</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<main>
+
+<!--  HERO SECTION -->
+<section class="hero container">
+
+    <div class="hero-content">
+
+        <p class="eyebrow">Restaurant Operations</p>
+
+        <h1>
+            Restaurant Management Software for
+            <span>Multi-Location Ops</span>
+        </h1>
+
+        <p class="hero-description">
+            Standardize daily restaurant operation. Manage tasks,
+            food-safety checklists, audits, SOP execution, issue
+            resolution, training, asset maintenance and operational
+            visibility from one platform.
+        </p>
+
+        <!-- <Trust badges > -->
+        <div class="trust-badges">
+
+            <div class="trust-item">
+                <span class="trust-icon">⚙</span>
+                <span>Operations<br>Management</span>
+            </div>
+
+            <div class="trust-item">
+                <span class="trust-icon">♧</span>
+                <span>Team<br>Accountability</span>
+            </div>
+
+            <div class="trust-item">
+                <span class="trust-icon">✓</span>
+                <span>Operational<br>Visibility</span>
+            </div>
+
+        </div>
+
+        <!-- Hero buttons -->
+        <div class="hero-buttons">
+            <a href="demo.html" class="btn btn-primary">
+                Book a Demo
+            </a>
+
+            <a href="trial.html" class="text-link">
+                Start Free Trial →
+            </a>
+        </div>
+
+    </div>
+
+    <!-- HERO IMAGE -->
+    <div class="hero-visual">
+
+        <div class="image-card">
+
+            <img
+                class="chef-image"
+                src="images.kicten.jpg"
+                alt="Chef working in a professional restaurant kitchen">
+
+            <!-- Checklist dashboard -->
+            <div class="dashboard-card hygiene-card">
+
+                <h3>Checklists & Hygiene Tracking</h3>
+
+                <div class="daily-check">
+                    <div class="avatar">✓</div>
+                    <div>
+                        <strong>Daily Check</strong>
+                        <small>10/10 completed</small>
+                    </div>
+                </div>
+
+                <div class="mini-images">
+                    <div class="mini-image mini-one"></div>
+                    <div class="mini-image mini-two"></div>
+                </div>
+
+                <div class="status-labels">
+                    <span>Food Safety</span>
+                    <span>High Priority</span>
+                    <span>Resolved</span>
+                </div>
+
+            </div>
+
+            <!-- Food quality card -->
+            <div class="dashboard-card food-card">
+
+                <h3>Food Quality Check</h3>
+
+                <div class="food-images">
+                    <img
+                        src="images.food.jpg"
+                        alt="Fresh food quality check">
+
+                    <img
+                        src="image.rest.jpg"
+                        alt="Prepared restaurant meal">
+                </div>
+
+                <a href="products.html">View All →</a>
+
+            </div>
+
+            <!-- Operating data card -->
+            <div class="dashboard-card data-card">
+                <span class="data-icon">▥</span>
+                <strong>Restaurant Operating Health & Data</strong>
+                <span>›</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--INDUSTRIES / CUSTOMERS -->
+<section class="customers-section">
+    <div class="container">
+
+        <p>Built to support consistent operations across locations</p>
+
+        <div class="customer-logos">
+
+            <div class="customer-item">
+                <span class="customer-icon">♜</span>
+                <strong>RESTAURANTS</strong>
+            </div>
+
+            <div class="customer-item">
+                <span class="customer-icon">♜</span>
+                <strong>FOOD & BEVERAGE</strong>
+            </div>
+
+            <div class="customer-item">
+                <span class="customer-icon">☰</span>
+                <strong>QUICK SERVICE</strong>
+            </div>
+
+            <div class="customer-item">
+                <span class="customer-icon">▰</span>
+                <strong>HOSPITALITY</strong>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="eyebrow">One Connected Platform</p>
+
+            <h2>Everything your restaurant teams need</h2>
+
+            <p>
+                Keep daily tasks organized and help every location
+                follow the same operating standards.
+            </p>
+        </div>
+
+        <div class="feature-grid">
+
+            <article class="feature-card">
+                <div class="feature-icon">✓</div>
+                <h3>Task Management</h3>
+                <p>Assign daily responsibilities and track task completion.</p>
+                <a href="products.html">Explore Products →</a>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">☷</div>
+                <h3>Audits & Checklists</h3>
+                <p>Manage inspections, food safety checks and compliance.</p>
+                <a href="products.html">Explore Products →</a>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">!</div>
+                <h3>Issue Management</h3>
+                <p>Record operational issues and follow their resolution.</p>
+                <a href="products.html">Explore Products →</a>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">⌖</div>
+                <h3>Multi-Location Control</h3>
+                <p>Monitor operating standards across restaurant locations.</p>
+                <a href="industries.html">Explore Industries →</a>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- AUDIT WORKFLOW SECTION -->
+<section class="audit-workflow">
+  <div class="audit-container">
+
+    <div class="audit-content">
+      <span class="audit-eyebrow">
+        One Restaurant Workflow in Action
+      </span>
+
+      <h2>
+        Run a Restaurant Audit From Finding to Corrective Action
+      </h2>
+
+      <p class="audit-description">
+        Audits are one of the workflows restaurant teams can run
+        in Taqtics. See how teams capture evidence, identify
+        critical failures, create corrective actions, and maintain
+        visibility across locations.
+      </p>
+
+      <div class="audit-point">
+        <span class="audit-number">01</span>
+        <div>
+          <h3>Live scoring</h3>
+          <p>
+            Each answer updates completion, score, and audit
+            health instantly.
+          </p>
+        </div>
+      </div>
+
+      <div class="audit-point">
+        <span class="audit-number">02</span>
+        <div>
+          <h3>Critical check logic</h3>
+          <p>
+            Important controls can fail the audit even when
+            the total score looks strong.
+          </p>
+        </div>
+      </div>
+
+      <div class="audit-point">
+        <span class="audit-number">03</span>
+        <div>
+          <h3>Auto action points</h3>
+          <p>
+            Failed responses can create action points so teams
+            can move from audit findings to corrective action.
+          </p>
+        </div>
+      </div>
+
+      <a href="demo.html" class="audit-button">
+        Book a Demo →
+      </a>
+    </div>
+
+    <!-- AUDIT DASHBOARD CARD -->
+    <div class="audit-dashboard">
+      <div class="audit-card-header">
+        <h3>Restaurant Food Safety Audit</h3>
+        <div class="audit-tags">
+          <span>Restaurant Operations</span>
+          <span>Food Safety</span>
+        </div>
+      </div>
+
+      <div class="audit-stats">
+        <div>
+          <span>Quality Score</span>
+          <strong id="qualityScore">0%</strong>
+        </div>
+        <div>
+          <span>Completion</span>
+          <strong id="completionScore">0%</strong>
+        </div>
+      </div>
+
+      <p class="audit-status">
+        <span class="status-dot"></span>
+        In progress: complete all checks to finalize audit
+      </p>
+
+      <h4>10 Food Safety Compliance Checks</h4>
+      <div class="audit-progress">
+        <span id="auditProgressBar"></span>
+      </div>
+
+      <p class="audit-progress-text">
+        <span id="checksCompleted">0</span> of 10 checks completed
+      </p>
+
+      <div class="audit-check">
+        <span>Food preparation area clean</span>
+        <strong id="checkOne">Pending</strong>
+      </div>
+
+      <div class="audit-check">
+        <span>Staff hygiene verified</span>
+        <strong id="checkTwo">Pending</strong>
+      </div>
+
+      <div class="audit-check">
+        <span>Food storage temperature checked</span>
+        <strong id="checkThree">Pending</strong>
+      </div>
+
+      <div class="audit-actions">
+        <button type="button" class="audit-secondary" id="resetAudit">
+          Reset
+        </button>
+        <button type="button" class="audit-button" id="completeAudit">
+          Run Demo Audit
+        </button>
+      </div>
+
+      <p class="audit-demo-note" id="auditMessage">
+        Sample dashboard for demonstration.
+      </p>
+    </div>
+
+  </div>
+</section>
+<!-- INDUSTRY OPERATIONS INTRO -->
+<section class="location-intro">
+  <div class="location-intro-inner">
+    <span class="section-eyebrow">Restaurant Operations Platform</span>
+    <h2>Run Restaurant Operations Consistently Across Every Location</h2>
+    <p>
+      Taqtics connects daily tasks, SOP execution, audits, food-safety
+      controls, issue resolution, training, asset maintenance, and
+      operational reporting so restaurant teams can execute the same
+      standards across every outlet.
+    </p>
+  </div>
+</section>
+<!-- FOOD SAFETY COMPLIANCE SECTION -->
+<section class="food-safety-section">
+  <div class="food-safety-container">
+
+    <div class="food-safety-content">
+      <span class="food-safety-label">Food Safety</span>
+
+      <h2>Improve Quality &amp; Food Safety Compliance</h2>
+
+      <p>
+        Ensure every shift meets food safety standards—without
+        chasing paper trails.
+      </p>
+
+      <p>
+        Taqtics digitizes checks, schedules audits, and triggers
+        corrective actions to maintain hygiene, temperature control,
+        and expiry compliance across every outlet.
+      </p>
+
+      <div class="food-safety-feature">
+        <span class="feature-number">01</span>
+        <strong>Checklist</strong>
+        <span>Daily temperature, hygiene &amp; expiry checks</span>
+      </div>
+
+      <div class="food-safety-feature">
+        <span class="feature-number">02</span>
+        <strong>Audit</strong>
+        <span>Weekly/monthly audits by area managers</span>
+      </div>
+
+      <div class="food-safety-feature">
+        <span class="feature-number">03</span>
+        <strong>Issue Tracking</strong>
+        <span>Flag violations &amp; track resolution</span>
+      </div>
+
+      <a href="products.html" class="food-safety-link">
+        Explore Food Quality Management →
+      </a>
+    </div>
+
+    <!-- COMPLIANCE DASHBOARD -->
+    <div class="compliance-dashboard">
+      <div class="compliance-table-wrap">
+        <table class="compliance-table">
+          <thead>
+            <tr>
+              <th>Outlet</th>
+              <th>Temp Check</th>
+              <th>Hygiene</th>
+              <th>Compliance</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Andheri</td>
+              <td><span class="mini-bar green"></span>90%</td>
+              <td><span class="mini-bar green"></span>95%</td>
+              <td>96%</td>
+            </tr>
+            <tr>
+              <td>Dadar</td>
+              <td><span class="mini-bar orange"></span>80%</td>
+              <td><span class="mini-bar green"></span>90%</td>
+              <td>85%</td>
+            </tr>
+            <tr>
+              <td>Jadcherla</td>
+              <td><span class="mini-bar green"></span>95%</td>
+              <td><span class="mini-bar green"></span>92%</td>
+              <td>94%</td>
+            </tr>
+            <tr>
+              <td>Tehran</td>
+              <td><span class="mini-bar green"></span>90%</td>
+              <td><span class="mini-bar orange"></span>75%</td>
+              <td>82%</td>
+            </tr>
+            <tr>
+              <td>Rajpura</td>
+              <td><span class="mini-bar red"></span>60%</td>
+              <td><span class="mini-bar orange"></span>70%</td>
+              <td>65%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="chart-heading">
+        <h3>Cleanliness &amp; Hygiene Compliance by Outlet</h3>
+        <span>Last 7 days</span>
+      </div>
+
+      <div class="compliance-chart" id="complianceChart">
+        <div class="chart-column">
+          <div class="chart-bar" style="--bar-height: 90%"></div>
+          <span>Andheri</span>
+        </div>
+        <div class="chart-column">
+          <div class="chart-bar" style="--bar-height: 78%"></div>
+          <span>Dadar</span>
+        </div>
+        <div class="chart-column">
+          <div class="chart-bar" style="--bar-height: 68%"></div>
+          <span>Jadcherla</span>
+        </div>
+        <div class="chart-column">
+          <div class="chart-bar" style="--bar-height: 82%"></div>
+          <span>Tehran</span>
+        </div>
+        <div class="chart-column">
+          <div class="chart-bar chart-warning" style="--bar-height: 55%"></div>
+          <span>Rajpura</span>
+        </div>
+        <div class="chart-column">
+          <div class="chart-bar" style="--bar-height: 80%"></div>
+          <span>Outlet 6</span>
+        </div>
+      </div>
+
+      <p class="chart-note">
+        Illustrative dashboard — sample data for website preview.
+      </p>
+    </div>
+
+  </div>
+</section>
+<!-- OPERATIONAL DISCIPLINE SECTION -->
+<section class="operations-section">
+  <div class="operations-container">
+
+    <!-- LEFT: DASHBOARD CHARTS -->
+    <div class="operations-visuals">
+
+      <div class="operations-chart-card trend-card">
+        <div class="chart-card-heading">
+          <h3>SOP Adherence Score Trends</h3>
+          <span>Last 7 days</span>
+        </div>
+
+        <div class="line-chart">
+          <div class="chart-y-labels">
+            <span>100%</span>
+            <span>80%</span>
+            <span>60%</span>
+            <span>40%</span>
+            <span>20%</span>
+          </div>
+
+          <svg viewBox="0 0 400 170" role="img"
+               aria-label="Sample SOP adherence trend chart">
+            <g stroke="#e9eef5" stroke-width="1">
+              <line x1="25" y1="20" x2="390" y2="20"/>
+              <line x1="25" y1="55" x2="390" y2="55"/>
+              <line x1="25" y1="90" x2="390" y2="90"/>
+              <line x1="25" y1="125" x2="390" y2="125"/>
+              <line x1="25" y1="160" x2="390" y2="160"/>
+            </g>
+
+            <polyline
+              points="30,65 90,52 150,43 210,70 270,40 330,50"
+              fill="none"
+              stroke="#3eb58b"
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+
+            <g fill="#3eb58b">
+              <circle cx="30" cy="65" r="4"/>
+              <circle cx="90" cy="52" r="4"/>
+              <circle cx="150" cy="43" r="4"/>
+              <circle cx="270" cy="40" r="4"/>
+              <circle cx="330" cy="50" r="4"/>
+            </g>
+
+            <circle cx="210" cy="70" r="5" fill="#d82f5b"/>
+          </svg>
+
+          <div class="chart-days">
+            <span>Mon</span><span>Tue</span><span>Wed</span>
+            <span>Thu</span><span>Fri</span><span>Sat</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="operations-chart-card violations-card">
+        <div class="chart-card-heading">
+          <h3>SOP Violations by Store</h3>
+          <span>This month</span>
+        </div>
+
+        <div class="violation-chart">
+          <div class="violation-column">
+            <div class="violation-bar" style="--bar-height: 42%"></div>
+            <span>Andheri</span>
+          </div>
+          <div class="violation-column">
+            <div class="violation-bar" style="--bar-height: 60%"></div>
+            <span>Dadar</span>
+          </div>
+          <div class="violation-column">
+            <div class="violation-bar" style="--bar-height: 65%"></div>
+            <span>Jadcherla</span>
+          </div>
+          <div class="violation-column">
+            <div class="violation-bar violation-high"
+                 style="--bar-height: 95%"></div>
+            <span>Tehran</span>
+          </div>
+          <div class="violation-column">
+            <div class="violation-bar" style="--bar-height: 67%"></div>
+            <span>Rajpura</span>
+          </div>
+          <div class="violation-column">
+            <div class="violation-bar" style="--bar-height: 63%"></div>
+            <span>Outlet 6</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT: CONTENT -->
+    <div class="operations-content">
+      <span class="operations-eyebrow">Operational Discipline</span>
+
+      <h2>Standardize Daily Operations Across Every Restaurant</h2>
+
+      <p>
+        Opening, closing, prep, hygiene, stock checks, and shift
+        routines should not depend on who is managing the outlet that day.
+      </p>
+
+      <p>
+        Taqtics gives restaurant teams structured tasks, checklists,
+        SOPs, and training while giving area and head-office teams
+        visibility into missed work and recurring execution gaps.
+      </p>
+
+      <div class="operations-feature">
+        <span class="operations-number">01</span>
+        <strong>Checklist</strong>
+        <span>Opening/closing, hygiene, stock SOPs</span>
+      </div>
+
+      <div class="operations-feature">
+        <span class="operations-number">02</span>
+        <strong>Audit</strong>
+        <span>Monthly operational checks</span>
+      </div>
+
+      <div class="operations-feature">
+        <span class="operations-number">03</span>
+        <strong>Training</strong>
+        <span>Role-specific SOP training</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- COMPLIANCE CONTROL SECTION -->
+<section class="compliance-control-section">
+  <div class="compliance-control-container">
+
+    <div class="compliance-control-content">
+      <span class="compliance-eyebrow">Compliance Control</span>
+
+      <h2>Prevent Revenue Loss from Compliance Lapses</h2>
+
+      <p>
+        Missed renewals, certificates, fines, or notice-related
+        deadlines can create avoidable business risk.
+      </p>
+
+      <p>
+        Taqtics helps teams track critical dates, maintain accurate
+        records, and avoid costly operational failures through
+        timely reminders and clear accountability.
+      </p>
+
+      <div class="compliance-feature">
+        <span class="compliance-number">01</span>
+        <strong>Asset Management</strong>
+        <span>Track asset health and renewals</span>
+      </div>
+
+      <div class="compliance-feature">
+        <span class="compliance-number">02</span>
+        <strong>Checklist</strong>
+        <span>Maintain compliance checklists</span>
+      </div>
+
+      <div class="compliance-feature">
+        <span class="compliance-number">03</span>
+        <strong>Issue Tracking</strong>
+        <span>Resolve risks and track actions</span>
+      </div>
+
+      <a href="products.html" class="compliance-control-link">
+        Explore Digital Asset Software →
+      </a>
+    </div>
+
+    <!-- RIGHT SIDE DASHBOARD -->
+    <div class="compliance-control-visuals">
+
+      <div class="risk-chart-card">
+        <div class="risk-chart-heading">
+          <h3>Compliance Status</h3>
+          <span>Monthly overview</span>
+        </div>
+
+        <div class="risk-bar-chart">
+          <div class="risk-bar-column">
+            <div class="risk-bar-stack">
+              <span class="risk-green" style="height: 78%"></span>
+              <span class="risk-red" style="height: 15%"></span>
+            </div>
+            <small>Jan</small>
+          </div>
+
+          <div class="risk-bar-column">
+            <div class="risk-bar-stack">
+              <span class="risk-green" style="height: 65%"></span>
+              <span class="risk-red" style="height: 22%"></span>
+            </div>
+            <small>Feb</small>
+          </div>
+
+          <div class="risk-bar-column">
+            <div class="risk-bar-stack">
+              <span class="risk-green" style="height: 52%"></span>
+              <span class="risk-red" style="height: 10%"></span>
+            </div>
+            <small>Mar</small>
+          </div>
+
+          <div class="risk-bar-column">
+            <div class="risk-bar-stack">
+              <span class="risk-green" style="height: 70%"></span>
+              <span class="risk-red" style="height: 24%"></span>
+            </div>
+            <small>Apr</small>
+          </div>
+
+          <div class="risk-bar-column">
+            <div class="risk-bar-stack">
+              <span class="risk-green" style="height: 58%"></span>
+              <span class="risk-red" style="height: 12%"></span>
+            </div>
+            <small>May</small>
+          </div>
+
+          <div class="risk-bar-column">
+            <div class="risk-bar-stack">
+              <span class="risk-green" style="height: 43%"></span>
+              <span class="risk-red" style="height: 8%"></span>
+            </div>
+            <small>Jun</small>
+          </div>
+        </div>
+
+        <div class="risk-legend">
+          <span><i class="legend-green"></i> Compliant</span>
+          <span><i class="legend-red"></i> Attention required</span>
+        </div>
+      </div>
+
+      <div class="risk-status-card">
+        <h3>Compliance Checklist</h3>
+
+        <div class="risk-status-row">
+          <span>License Renewal</span>
+          <b class="status-green">Complete</b>
+        </div>
+
+        <div class="risk-status-row">
+          <span>Safety Inspection</span>
+          <b class="status-green">Complete</b>
+        </div>
+
+        <div class="risk-status-row">
+          <span>Equipment Audit</span>
+          <b class="status-red">Pending</b>
+        </div>
+
+        <div class="risk-status-row">
+          <span>Document Review</span>
+          <b class="status-red">Review</b>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ASSET RELIABILITY SECTION -->
+<section class="asset-section">
+  <div class="asset-container">
+
+    <!-- LEFT: DASHBOARD -->
+    <div class="asset-visual">
+      <div class="dashboard-card">
+        <h3>Summary Heat Map</h3>
+        <p class="dashboard-subtitle">
+          Asset performance across locations
+        </p>
+
+        <div class="heatmap">
+          <div class="heat-column">
+            <span>Delhi</span>
+            <span>Mumbai</span>
+            <span>Bangalore</span>
+            <span>Chennai</span>
+            <span>Pune</span>
+            <span>Hyderabad</span>
+          </div>
+
+          <div class="heat-column">
+            <span class="green">✓</span>
+            <span class="green">✓</span>
+            <span class="green">✓</span>
+            <span class="green">✓</span>
+            <span class="orange">!</span>
+            <span class="green">✓</span>
+          </div>
+
+          <div class="heat-column">
+            <span class="green">✓</span>
+            <span class="red">!</span>
+            <span class="green">✓</span>
+            <span class="orange">!</span>
+            <span class="green">✓</span>
+            <span class="green">✓</span>
+          </div>
+
+          <div class="heat-column">
+            <span class="red">!</span>
+            <span class="green">✓</span>
+            <span class="green">✓</span>
+            <span class="green">✓</span>
+            <span class="red">!</span>
+            <span class="green">✓</span>
+          </div>
+
+          <div class="heat-column">
+            <span class="green">✓</span>
+            <span class="orange">!</span>
+            <span class="green">✓</span>
+            <span class="green">✓</span>
+            <span class="green">✓</span>
+            <span class="green">✓</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- FLOATING CHART -->
+      <div class="chart-card">
+        <h3>Repair Cost Trends Over Time</h3>
+        <p>Year - 2025</p>
+
+        <div class="chart">
+          <div class="chart-line">
+            <span class="chart-dot dot-one"></span>
+            <span class="chart-dot dot-two"></span>
+            <span class="chart-dot dot-three"></span>
+            <span class="chart-dot dot-four"></span>
+          </div>
+
+          <div class="chart-labels">
+            <span>Jan</span>
+            <span>Feb</span>
+            <span>Mar</span>
+            <span>Apr</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: CONTENT -->
+    <div class="asset-content">
+      <span class="section-eyebrow">Asset Reliability</span>
+
+      <h2>
+        Reduce Asset Downtime & Extend Equipment Lifespan
+      </h2>
+
+      <p class="asset-highlight">
+        Griddles, mixers, freezers—if they fail, revenue suffers.
+      </p>
+
+      <p class="asset-description">
+        Taqtics gives you full control over asset tagging, issue
+        reporting, and preventive maintenance routines to maximize
+        uptime and reduce service costs.
+      </p>
+
+      <div class="asset-feature">
+        <span class="feature-number">01</span>
+        <strong>Asset Management</strong>
+        <p>Barcode-based tagging</p>
+      </div>
+
+      <div class="asset-feature">
+        <span class="feature-number">02</span>
+        <strong>Checklist</strong>
+        <p>Preventive maintenance tasks</p>
+      </div>
+
+      <div class="asset-feature">
+        <span class="feature-number">03</span>
+        <strong>Issue Tracking</strong>
+        <p>Log breakdowns & escalate issues</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- RESTAURANT SOFTWARE COMPARISON SECTION -->
+<section class="comparison-section">
+  <div class="comparison-container">
+
+    <!-- LEFT CONTENT -->
+    <div class="comparison-left">
+      <span class="comparison-label">Where Taqtics Fits</span>
+
+      <h2>
+        Restaurant Management Software vs POS and Back-Office Systems
+      </h2>
+
+      <p class="comparison-description">
+        Restaurant technology serves different parts of the operating
+        model. <strong>Taqtics focuses on restaurant operations
+        execution</strong> —the work teams need to complete consistently
+        across locations.
+      </p>
+
+      <div class="comparison-note">
+        Taqtics can operate alongside the POS, ERP, inventory, HR,
+        or other systems a restaurant already uses rather than
+        replacing every part of the technology stack.
+      </div>
+    </div>
+
+    <!-- RIGHT COMPARISON TABLE -->
+    <div class="comparison-right">
+
+      <div class="comparison-row">
+        <h3>POS systems</h3>
+        <p>
+          Primarily manage orders, transactions, payments,
+          and sales data.
+        </p>
+      </div>
+
+      <div class="comparison-row">
+        <h3>Inventory systems</h3>
+        <p>
+          Primarily manage stock, ingredients, purchasing,
+          and inventory records.
+        </p>
+      </div>
+
+      <div class="comparison-row">
+        <h3>ERP / HR systems</h3>
+        <p>
+          Manage broader finance, people, payroll,
+          procurement, or enterprise processes.
+        </p>
+      </div>
+
+      <div class="comparison-row taqtics-row">
+        <h3>Taqtics</h3>
+        <p>
+          Manages daily tasks, SOP execution, audits, inspections,
+          asset tracking, corrective actions, and multi-location
+          operational visibility.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="customer-stories" id="customer-stories">
+  <div class="stories-heading">
+    <h2>See How Restaurant Teams Improve Operational Execution</h2>
+    <p>
+      Explore how restaurant, QSR, café, and food-service teams use
+      Taqtics to standardize audits, strengthen food safety, resolve
+      issues faster, and improve visibility across locations.
+    </p>
+  </div>
+
+  <div class="stories-grid">
+
+    <!-- Card 1 -->
+    <article class="customer-card">
+      <div class="brand-logos">
+        <span class="americana">AMERICANA<small>RESTAURANTS</small></span>
+        <span class="kfc">🍗 KFC</span>
+      </div>
+
+      <span class="category">QSR OPERATIONS</span>
+      <h3>Americana Restaurants</h3>
+      <p>
+        How Americana digitized quality, food-safety, supplier,
+        and OHS audits across outlets, commissaries, and warehouses
+        while automating issue follow-up.
+      </p>
+
+      <div class="stats">
+        <div>
+          <strong class="counter" data-target="1089" data-suffix="+">0</strong>
+          <small>KFC outlets monitored</small>
+        </div>
+        <div>
+          <strong>&lt;1 hr</strong>
+          <small>Supplier issue resolution</small>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="customer-card">
+      <div class="brand-logos">
+        <span class="barns">barn's<br>café</span>
+      </div>
+
+      <span class="category">CAFÉ OPERATIONS</span>
+      <h3>Barns Café</h3>
+      <p>
+        How Barns moved from fragmented manual operations to
+        structured digital checklists, audits, issue routing,
+        training visibility, and asset control across 1,000+ outlets.
+      </p>
+
+      <div class="stats">
+        <div>
+          <strong class="counter" data-target="45" data-suffix="%">0</strong>
+          <small>Compliance improvement</small>
+        </div>
+        <div>
+          <strong class="counter" data-target="32" data-suffix="%">0</strong>
+          <small>Issue-resolution improvement</small>
+        </div>
+      </div>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="customer-card">
+      <div class="brand-logos">
+        <span class="geant">Géant</span>
+        <span class="grandiose">◉ Grandiose</span>
+      </div>
+
+      <span class="category">FOOD RETAIL OPERATIONS</span>
+      <h3>Global Supermarket Chains</h3>
+      <p>
+        How multi-format supermarket teams digitized daily
+        execution, store audits, corrective actions, inventory
+        controls, cash checks, and leadership dashboards.
+      </p>
+
+      <div class="stats">
+        <div>
+          <strong class="counter" data-target="90" data-suffix="%">0</strong>
+          <small>Planogram compliance</small>
+        </div>
+        <div>
+          <strong>Faster</strong>
+          <small>Issue follow-up</small>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+<section class="testimonials-section" id="testimonials">
+  <div class="testimonials-heading">
+    <span class="testimonials-label">Client Testimonials</span>
+
+    <h2>
+      Hear How Multi-Location Teams Improve
+      Execution With Taqtics
+    </h2>
+
+    <p>
+      Real stories from teams using Taqtics to improve visibility,
+      accountability, consistency, and execution across locations.
+    </p>
+  </div>
+
+  <div class="testimonials-grid">
+
+    <!-- Testimonial 1 -->
+    <article class="testimonial-card">
+      <div class="video-box">
+        <video controls preload="metadata"
+          poster="">
+          <source src="video1.mp4" type="video/mp4">
+          Your browser does not support video.
+        </video>
+      </div>
+
+      <h3>Felix Amando Hadisaputra</h3>
+      <p class="client-role">
+        Head of Information Technology, PT MAP Boga Adiperkasa
+      </p>
+      <p class="client-description">
+        Felix shares how Starbucks Indonesia and MAP Group
+        transformed operations across multiple locations using Taqtics.
+      </p>
+    </article>
+
+    <!-- Testimonial 2 -->
+    <article class="testimonial-card">
+      <div class="video-box">
+        <video controls preload="metadata"
+          poster="">
+          <source src="video.mp4" type="video/mp4">
+          Your browser does not support video.
+        </video>
+      </div>
+
+      <h3>Vidya Mudaliar</h3>
+      <p class="client-role">
+        Head of HR and Learning, PizzaExpress
+      </p>
+      <p class="client-description">
+        Vidya shares how PizzaExpress modernized daily operations,
+        strengthened accountability, and improved reporting across locations.
+      </p>
+    </article>
+
+    <!-- Testimonial 3 -->
+    <article class="testimonial-card">
+      <div class="video-box">
+        <video controls preload="metadata"
+          poster="">
+          <source src="video2.mp4"video/mp4">
+          Your browser does not support video.
+        </video>
+      </div>
+
+      <h3>Ruvin Dholakiya</h3>
+      <p class="client-role">Chief Digital Officer</p>
+      <p class="client-description">
+        Discover how Kisna scaled store operations with structured
+        processes, better visibility, and consistent execution.
+      </p>
+    </article>
+
+  </div>
+</section>
+<!-- Restaurant Operations Banner -->
+<section class="restaurant-banner">
+    <div class="banner-content">
+        <p class="banner-label">Restaurant Operations</p>
+
+        <h2>
+            Standardize Restaurant Operations Across Every Location
+        </h2>
+
+        <p class="banner-description">
+            Bring daily tasks, food-safety checks, audits, SOPs,
+            issues, training, and asset maintenance into one operations
+            platform—with clear visibility from outlet to head office.
+        </p>
+    </div>
+
+    <div class="banner-buttons">
+        <a href="#demo" class="banner-light-btn">Book a Demo</a>
+        <a href="#trial" class="banner-dark-btn">Start Free Trial</a>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="main-footer">
+
+    <div class="footer-brand">
+        <h2>taqtics</h2>
+
+        <p>
+            Turn everyday operations into consistent,
+            measurable execution across every location.
+        </p>
+
+        <div class="social-icons">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">◎</a>
+        </div>
+
+        <div class="contact-info">
+            <p>UAE - Dubai</p>
+            <p>India - Bangalore</p>
+            <p>
+                3rd Floor, 572, 3rd Main Rd, above Starbucks,
+                P&T Colony, RT Nagar, Bengaluru, Karnataka 560032
+            </p>
+            <p>support@taqtics.co</p>
+            <p>+91 98451 77744</p>
+        </div>
+    </div>
+
+    <div class="footer-column">
+        <h3>Products</h3>
+        <a href="#product">Checklists & Forms</a>
+        <a href="#product">Audit & Inspection Management Software</a>
+        <a href="#product">Issue Tracking</a>
+        <a href="#product">Visual Merchandising Software</a>
+        <a href="#product">Asset Management</a>
+        <a href="#product">Training & Knowledge</a>
+        <a href="#product">Communication</a>
+        <a href="#product">Attendance</a>
+    </div>
+
+    <div class="footer-column">
+        <h3>Industries</h3>
+        <a href="#industries">Retail</a>
+        <a href="#industries">Supermarkets</a>
+        <a href="#industries">Restaurant</a>
+        <a href="#industries">Manufacturing</a>
+    </div>
+
+    <div class="footer-column">
+        <h3>Resources</h3>
+        <a href="#resources">Case Studies</a>
+        <a href="#resources">Blogs</a>
+        <a href="#resources">Retail Store Checklists</a>
+        <a href="#resources">Templates & Store Checklists</a>
+        <a href="#resources">Compare Taqtics</a>
+        <a href="#resources">Restaurant Checklist Templates</a>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Taqtics Website Demo</p>
+    </div>
+
+</footer>
+</body>
+</html>
+
+   
+
+<script src="script.js"></script>
+
+</body>
+</html>
