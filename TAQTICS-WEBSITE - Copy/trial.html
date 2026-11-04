@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Start Free Trial | Taqtics</title>
+    <meta name="description" content="Start your free trial and discover smarter restaurant management with Taqtics.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="site-header">
+        <nav class="navbar container">
+
+            <a href="index.html" class="logo">taqtics</a>
+
+            <button class="menu-btn" id="menuBtn"
+            aria-label="Open menu" aria-expanded="false">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="products.html">Products⌄</a></li>
+                <li><a href="industries.html">Industries⌄</a></li>
+                <li><a href="company.html">Company⌄</a></li>
+                <li><a href="resources.html">Resources⌄</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="trial.html" class="trial-link">Start Free Trial</a></li>
+                <li><a href="demo.html" class="btn btn-primary">Book a Demo</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- TRIAL HERO -->
+    <section class="products-hero trial-hero">
+        <div class="container products-hero-content">
+
+            <p class="eyebrow">START YOUR FREE TRIAL</p>
+
+            <h1>
+                Experience Smarter
+                <span>Restaurant Management</span>
+            </h1>
+
+            <p>
+                Discover how Taqtics helps restaurant teams manage
+                daily operations, improve food safety, track tasks
+                and maintain consistency across every location.
+            </p>
+
+            <div class="products-buttons">
+                <a href="#trial-form" class="btn btn-primary">
+                    Start Your Free Trial
+                </a>
+
+                <a href="demo.html" class="text-link">
+                    Book a Demo →
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- TRIAL BENEFITS -->
+    <section class="products-section trial-benefits">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="eyebrow">WHY TAQTICS?</p>
+
+                <h2>Everything You Need to Run Better Operations</h2>
+
+                <p>
+                    Bring your restaurant operations together
+                    with one easy-to-use platform.
+                </p>
+            </div>
+
+            <div class="products-grid">
+
+                <article class="product-card">
+                    <div class="product-icon">✓</div>
+                    <h3>Easy Task Management</h3>
+                    <p>
+                        Assign daily tasks, monitor progress
+                        and improve team accountability.
+                    </p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-icon">▣</div>
+                    <h3>Food Safety & Audits</h3>
+                    <p>
+                        Manage checklists, inspections and
+                        food safety activities efficiently.
+                    </p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-icon">↗</div>
+                    <h3>Real-Time Visibility</h3>
+                    <p>
+                        Monitor restaurant performance and
+                        operations across multiple locations.
+                    </p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FREE TRIAL FORM -->
+    <section class="trial-form-section" id="trial-form">
+        <div class="container trial-form-container">
+
+            <div class="trial-form-info">
+                <p class="eyebrow">GET STARTED TODAY</p>
+
+                <h2>Start Your Free Trial</h2>
+
+                <p>
+                    Fill in your details and our team can help
+                    you explore the Taqtics platform.
+                </p>
+
+                <ul>
+                    <li>✓ Simplify daily restaurant operations</li>
+                    <li>✓ Improve team accountability</li>
+                    <li>✓ Manage multiple locations</li>
+                    <li>✓ Track tasks and audits</li>
+                </ul>
+            </div>
+
+
+            <div class="trial-form-card">
+
+                <h3>Create Your Account</h3>
+
+                <p>Enter your details below.</p>
+
+                <form id="trialForm">
+
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input
+                            type="text"
+                            id="fullName"
+                            name="fullName"
+                            placeholder="Enter your full name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Work Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your work email"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter your phone number"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Company Name</label>
+                        <input
+                            type="text"
+                            id="company"
+                            name="company"
+                            placeholder="Enter your company name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="locations">Number of Locations</label>
+
+                        <select id="locations" name="locations" required>
+                            <option value="">Select locations</option>
+                            <option value="1">1 Location</option>
+                            <option value="2-5">2–5 Locations</option>
+                            <option value="6-10">6–10 Locations</option>
+                            <option value="10+">More than 10 Locations</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary trial-submit">
+                        Start Free Trial →
+                    </button>
+
+                    <p class="form-note">
+                        By submitting this form, you agree to be
+                        contacted about Taqtics services.
+                    </p>
+
+                    <p id="trialMessage" class="trial-message"></p>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CTA -->
+    <section class="products-cta">
+        <div class="container">
+
+            <h2>Ready to Improve Your Restaurant Operations?</h2>
+
+            <p>
+                Discover a smarter way to manage your restaurant teams
+                and daily operations.
+            </p>
+
+            <a href="demo.html" class="btn btn-primary">
+                Book a Demo →
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+
+        <div class="footer-brand">
+            <h2>taqtics</h2>
+
+            <p>
+                Turn everyday operations into consistent,
+                measurable execution across every location.
+            </p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <span id="currentYear">2026</span> Taqtics Website Demo</p>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
